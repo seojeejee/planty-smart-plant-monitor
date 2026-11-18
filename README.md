@@ -30,19 +30,19 @@
 
 ## 시연 영상
 
-아래 이미지를 누르면 각 MP4 영상을 볼 수 있습니다. 두 영상 모두 실제 장치의 LCD와 배선 상태를 보여줍니다.
+아래 이미지를 누르면 다운로드 없이 재생할 수 있는 시연 페이지가 열립니다. 두 영상 모두 실제 장치의 LCD와 배선 상태를 보여줍니다.
 
 **식물 프로필 선택** · 약 12초. 버튼 조작에 따라 LCD에 `Select Plant?`와 식물 이름이 표시됩니다.
 
-<a href="./media/profile-selection-demo.mp4"><img src="./media/profile-selection-preview.jpg" width="260" alt="LCD에 식물 프로필 선택 화면이 표시된 PLANTY 시연 영상 미리보기" /></a>
+<a href="https://seojeejee.github.io/planty-smart-plant-monitor/#profile"><img src="./media/profile-selection-preview.jpg" width="260" alt="LCD에 식물 프로필 선택 화면이 표시된 PLANTY 시연 영상 미리보기" /></a>
 
-[프로필 선택 영상 보기](./media/profile-selection-demo.mp4)
+[프로필 선택 영상 재생](https://seojeejee.github.io/planty-smart-plant-monitor/#profile)
 
 **기상 경보 화면** · 약 10초. LCD에 `WARNING!`과 강수 경고 문구가 표시됩니다. 영상만으로 예보 API의 호출 경로나 경보 발생 조건까지 검증할 수는 없습니다.
 
-<a href="./media/weather-alert-demo.mp4"><img src="./media/weather-alert-preview.jpg" width="260" alt="LCD에 기상 경보 문구가 표시된 PLANTY 시연 영상 미리보기" /></a>
+<a href="https://seojeejee.github.io/planty-smart-plant-monitor/#alert"><img src="./media/weather-alert-preview.jpg" width="260" alt="LCD에 기상 경보 문구가 표시된 PLANTY 시연 영상 미리보기" /></a>
 
-[경보 화면 영상 보기](./media/weather-alert-demo.mp4)
+[경보 화면 영상 재생](https://seojeejee.github.io/planty-smart-plant-monitor/#alert)
 
 ## 실행 환경
 

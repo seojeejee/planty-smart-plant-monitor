@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PLANTY 라즈베리파이 식물 환경 모니터링 프로젝트의 실제 장치 시연 영상 두 편">
+  <title>PLANTY 시연 영상 | 식물 환경 모니터링과 기상 경보</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #f3f6ef;
+      color: #17251e;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #176b46; }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 72px; }
+    .eyebrow { margin: 0 0 10px; color: #427452; font-size: 0.85rem; font-weight: 700; letter-spacing: .08em; }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.14; letter-spacing: -.04em; }
+    .intro { max-width: 700px; margin: 20px 0 30px; color: #42544a; line-height: 1.7; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 36px; }
+    .links a { display: inline-block; padding: 10px 15px; border: 1px solid #b8cbbb; border-radius: 999px; background: #fff; text-decoration: none; font-weight: 650; }
+    .links a:hover, .links a:focus-visible { border-color: #176b46; background: #ecf7ee; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; align-items: start; }
+    .card { overflow: hidden; border: 1px solid #d5dfd1; border-radius: 18px; background: #fff; box-shadow: 0 10px 32px #233a2510; }
+    .card video { display: block; width: 100%; max-height: 480px; aspect-ratio: 4 / 3; object-fit: contain; background: #17251e; }
+    .body { padding: 20px 22px 24px; }
+    .number { margin: 0 0 8px; color: #427452; font-size: .8rem; font-weight: 700; }
+    h2 { margin: 0 0 10px; font-size: 1.35rem; }
+    .body p:last-child { margin: 0; color: #506056; line-height: 1.6; }
+    .note { margin: 30px 0 0; color: #56665c; font-size: .92rem; line-height: 1.65; }
+    @media (max-width: 720px) {
+      .wrap { padding: 32px 16px 56px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">RASPBERRY PI · 4-1 실험 텀프로젝트</p>
+    <h1>PLANTY 시연 영상</h1>
+    <p class="intro">식물 환경 모니터링과 기상 경보 시스템의 실제 장치 시연입니다. 아래 플레이어에서 두 영상을 바로 재생할 수 있습니다.</p>
+    <nav class="links" aria-label="프로젝트 링크">
+      <a href="https://github.com/seojeejee/planty-smart-plant-monitor">코드와 프로젝트 설명</a>
+      <a href="https://github.com/seojeejee">깃허브 프로필</a>
+    </nav>
+    <div class="grid">
+      <section class="card" id="profile" aria-labelledby="profile-title">
+        <video controls playsinline preload="metadata" poster="media/profile-selection-preview.jpg" aria-label="식물 프로필 선택 시연 영상">
+          <source src="media/profile-selection-demo.mp4" type="video/mp4">
+          브라우저에서 영상을 재생할 수 없습니다.
+        </video>
+        <div class="body">
+          <p class="number">시연 01 · 약 12초</p>
+          <h2 id="profile-title">식물 프로필 선택</h2>
+          <p>버튼 조작에 따라 LCD에 식물 선택 화면과 프로필 이름이 표시됩니다.</p>
+        </div>
+      </section>
+      <section class="card" id="alert" aria-labelledby="alert-title">
+        <video controls playsinline preload="metadata" poster="media/weather-alert-preview.jpg" aria-label="기상 경보 화면 시연 영상">
+          <source src="media/weather-alert-demo.mp4" type="video/mp4">
+          브라우저에서 영상을 재생할 수 없습니다.
+        </video>
+        <div class="body">
+          <p class="number">시연 02 · 약 10초</p>
+          <h2 id="alert-title">기상 경보 화면</h2>
+          <p>LCD에 강수 경고 문구와 경보 화면이 표시됩니다.</p>
+        </div>
+      </section>
+    </div>
+    <p class="note">영상은 장치 화면을 보여줍니다. 예보 API의 호출 과정과 전체 시스템의 재현 여부는 영상만으로 확인할 수 없습니다.</p>
+  </main>
+</body>
+</html>
